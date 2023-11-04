@@ -1,0 +1,54 @@
+.body
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.scoreboard
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-inner
+{
+    width: 100px;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+
+.controls
+{
+    display: flex;
+    flex: 1 1 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button
+{
+    width: 100px;
+    padding: 0.5em;
+    margin: 1em;
+}
